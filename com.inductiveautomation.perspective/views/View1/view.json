@@ -1,0 +1,972 @@
+{
+  "custom": {},
+  "params": {},
+  "props": {},
+  "root": {
+    "children": [
+      {
+        "meta": {
+          "name": "Label"
+        },
+        "position": {
+          "height": 50,
+          "width": 149,
+          "x": 45,
+          "y": 178
+        },
+        "props": {
+          "text": "Line status"
+        },
+        "type": "ia.display.label"
+      },
+      {
+        "meta": {
+          "name": "Label_0"
+        },
+        "position": {
+          "height": 50,
+          "width": 149,
+          "x": 36,
+          "y": 228
+        },
+        "props": {
+          "text": "T/T (min)"
+        },
+        "type": "ia.display.label"
+      },
+      {
+        "meta": {
+          "name": "Label_1"
+        },
+        "position": {
+          "height": 50,
+          "width": 149,
+          "x": 36,
+          "y": 269
+        },
+        "props": {
+          "text": "Plan (unit)"
+        },
+        "type": "ia.display.label"
+      },
+      {
+        "meta": {
+          "name": "Label_2"
+        },
+        "position": {
+          "height": 50,
+          "width": 149,
+          "x": 36,
+          "y": 326
+        },
+        "props": {
+          "text": "Targat (unit)"
+        },
+        "type": "ia.display.label"
+      },
+      {
+        "meta": {
+          "name": "Label_3"
+        },
+        "position": {
+          "height": 50,
+          "width": 149,
+          "x": 31.5,
+          "y": 384
+        },
+        "props": {
+          "text": "Actual (unit)"
+        },
+        "type": "ia.display.label"
+      },
+      {
+        "meta": {
+          "name": "Label_4"
+        },
+        "position": {
+          "height": 50,
+          "width": 149,
+          "x": 36,
+          "y": 449
+        },
+        "props": {
+          "text": "Eff(%)"
+        },
+        "type": "ia.display.label"
+      },
+      {
+        "meta": {
+          "name": "Label_5"
+        },
+        "position": {
+          "height": 50,
+          "width": 149,
+          "x": 36,
+          "y": 499
+        },
+        "props": {
+          "text": "Overtime"
+        },
+        "type": "ia.display.label"
+      },
+      {
+        "meta": {
+          "name": "Label_6"
+        },
+        "position": {
+          "height": 50,
+          "width": 149,
+          "x": 19.5,
+          "y": 549
+        },
+        "props": {
+          "text": "Total Losss time"
+        },
+        "type": "ia.display.label"
+      },
+      {
+        "meta": {
+          "name": "NumericEntryField_0"
+        },
+        "position": {
+          "height": 32,
+          "width": 69,
+          "x": 185,
+          "y": 226
+        },
+        "props": {
+          "value": 22
+        },
+        "type": "ia.input.numeric-entry-field"
+      },
+      {
+        "meta": {
+          "name": "NumericEntryField_1"
+        },
+        "position": {
+          "height": 32,
+          "width": 68,
+          "x": 185,
+          "y": 279
+        },
+        "props": {
+          "value": 33
+        },
+        "type": "ia.input.numeric-entry-field"
+      },
+      {
+        "meta": {
+          "name": "NumericEntryField_2"
+        },
+        "position": {
+          "height": 32,
+          "rotate": {
+            "anchor": "50% 38%"
+          },
+          "width": 65,
+          "x": 187,
+          "y": 335
+        },
+        "type": "ia.input.numeric-entry-field"
+      },
+      {
+        "meta": {
+          "name": "NumericEntryField_3"
+        },
+        "position": {
+          "height": 32,
+          "width": 65,
+          "x": 187,
+          "y": 393
+        },
+        "type": "ia.input.numeric-entry-field"
+      },
+      {
+        "meta": {
+          "name": "NumericEntryField_4"
+        },
+        "position": {
+          "height": 32,
+          "width": 66,
+          "x": 188,
+          "y": 451
+        },
+        "type": "ia.input.numeric-entry-field"
+      },
+      {
+        "meta": {
+          "name": "NumericEntryField_5"
+        },
+        "position": {
+          "height": 32,
+          "width": 66,
+          "x": 186,
+          "y": 504
+        },
+        "type": "ia.input.numeric-entry-field"
+      },
+      {
+        "meta": {
+          "name": "NumericEntryField_6"
+        },
+        "position": {
+          "height": 32,
+          "rotate": {
+            "anchor": "-81% 50%"
+          },
+          "width": 67,
+          "x": 186,
+          "y": 558
+        },
+        "type": "ia.input.numeric-entry-field"
+      },
+      {
+        "meta": {
+          "name": "Label_7"
+        },
+        "position": {
+          "height": 50,
+          "width": 149,
+          "x": 45,
+          "y": 145
+        },
+        "props": {
+          "text": "Shift"
+        },
+        "type": "ia.display.label"
+      },
+      {
+        "meta": {
+          "name": "Label_8"
+        },
+        "position": {
+          "height": 50,
+          "width": 84,
+          "x": 45,
+          "y": 95
+        },
+        "props": {
+          "text": "Date"
+        },
+        "type": "ia.display.label"
+      },
+      {
+        "meta": {
+          "name": "Label_9"
+        },
+        "position": {
+          "height": 50,
+          "width": 149,
+          "x": 58,
+          "y": 45
+        },
+        "props": {
+          "text": "version1.3"
+        },
+        "type": "ia.display.label"
+      },
+      {
+        "meta": {
+          "name": "Label_10"
+        },
+        "position": {
+          "height": 60,
+          "width": 200,
+          "x": 107
+        },
+        "props": {
+          "text": "F1 GROUP1"
+        },
+        "type": "ia.display.label"
+      },
+      {
+        "meta": {
+          "name": "Label_11"
+        },
+        "position": {
+          "height": 32,
+          "width": 37,
+          "x": 201,
+          "y": 183
+        },
+        "props": {
+          "style": {
+            "classes": "lampstatus"
+          }
+        },
+        "type": "ia.display.label"
+      },
+      {
+        "meta": {
+          "name": "Label_12"
+        },
+        "position": {
+          "height": 60,
+          "width": 69,
+          "x": 180.5,
+          "y": 110
+        },
+        "props": {
+          "text": "Frame Zone4"
+        },
+        "type": "ia.display.label"
+      },
+      {
+        "meta": {
+          "name": "Label_14"
+        },
+        "position": {
+          "height": 32,
+          "width": 37,
+          "x": 286,
+          "y": 183
+        },
+        "props": {
+          "style": {
+            "classes": "lampstatus"
+          }
+        },
+        "type": "ia.display.label"
+      },
+      {
+        "meta": {
+          "name": "Label_15"
+        },
+        "position": {
+          "height": 32,
+          "rotate": {
+            "anchor": "50% 25%"
+          },
+          "width": 37,
+          "x": 371,
+          "y": 185
+        },
+        "props": {
+          "style": {
+            "classes": "lampstatus"
+          }
+        },
+        "type": "ia.display.label"
+      },
+      {
+        "meta": {
+          "name": "Label_16"
+        },
+        "position": {
+          "height": 32,
+          "width": 37,
+          "x": 451,
+          "y": 185
+        },
+        "props": {
+          "style": {
+            "classes": "lampstatus"
+          }
+        },
+        "type": "ia.display.label"
+      },
+      {
+        "meta": {
+          "name": "Label_17"
+        },
+        "position": {
+          "height": 32,
+          "rotate": {
+            "anchor": "50% 0%"
+          },
+          "width": 37,
+          "x": 542,
+          "y": 184
+        },
+        "props": {
+          "style": {
+            "classes": "lampstatus"
+          }
+        },
+        "type": "ia.display.label"
+      },
+      {
+        "meta": {
+          "name": "Label_18"
+        },
+        "position": {
+          "height": 32,
+          "width": 37,
+          "x": 627,
+          "y": 185
+        },
+        "props": {
+          "style": {
+            "classes": "lampstatus"
+          }
+        },
+        "type": "ia.display.label"
+      },
+      {
+        "meta": {
+          "name": "Label_19"
+        },
+        "position": {
+          "height": 50,
+          "rotate": {
+            "anchor": "-254% 172%"
+          },
+          "width": 84,
+          "x": 283.5,
+          "y": 111
+        },
+        "props": {
+          "text": "EDP IN"
+        },
+        "type": "ia.display.label"
+      },
+      {
+        "meta": {
+          "name": "Label_20"
+        },
+        "position": {
+          "height": 50,
+          "width": 84,
+          "x": 365,
+          "y": 111
+        },
+        "props": {
+          "text": "Axle#1"
+        },
+        "type": "ia.display.label"
+      },
+      {
+        "meta": {
+          "name": "Label_21"
+        },
+        "position": {
+          "height": 50,
+          "width": 84,
+          "x": 445,
+          "y": 112
+        },
+        "props": {
+          "text": "Axle#2"
+        },
+        "type": "ia.display.label"
+      },
+      {
+        "meta": {
+          "name": "Label_22"
+        },
+        "position": {
+          "height": 50,
+          "width": 84,
+          "x": 533,
+          "y": 112
+        },
+        "props": {
+          "text": "Axle#3"
+        },
+        "type": "ia.display.label"
+      },
+      {
+        "meta": {
+          "name": "Label_23"
+        },
+        "position": {
+          "height": 50,
+          "width": 84,
+          "x": 616.5,
+          "y": 115
+        },
+        "props": {
+          "text": "Diff Assy s20"
+        },
+        "type": "ia.display.label"
+      },
+      {
+        "meta": {
+          "name": "NumericEntryField_7"
+        },
+        "position": {
+          "height": 32,
+          "width": 67,
+          "x": 271,
+          "y": 227
+        },
+        "type": "ia.input.numeric-entry-field"
+      },
+      {
+        "meta": {
+          "name": "NumericEntryField_8"
+        },
+        "position": {
+          "height": 32,
+          "width": 67,
+          "x": 271,
+          "y": 283
+        },
+        "type": "ia.input.numeric-entry-field"
+      },
+      {
+        "meta": {
+          "name": "NumericEntryField_9"
+        },
+        "position": {
+          "height": 32,
+          "width": 67,
+          "x": 271,
+          "y": 335
+        },
+        "type": "ia.input.numeric-entry-field"
+      },
+      {
+        "meta": {
+          "name": "NumericEntryField_10"
+        },
+        "position": {
+          "height": 32,
+          "width": 67,
+          "x": 271,
+          "y": 391
+        },
+        "type": "ia.input.numeric-entry-field"
+      },
+      {
+        "meta": {
+          "name": "NumericEntryField_11"
+        },
+        "position": {
+          "height": 32,
+          "width": 67,
+          "x": 271,
+          "y": 452
+        },
+        "type": "ia.input.numeric-entry-field"
+      },
+      {
+        "meta": {
+          "name": "NumericEntryField_12"
+        },
+        "position": {
+          "height": 32,
+          "width": 67,
+          "x": 271,
+          "y": 505
+        },
+        "type": "ia.input.numeric-entry-field"
+      },
+      {
+        "meta": {
+          "name": "NumericEntryField_13"
+        },
+        "position": {
+          "height": 32,
+          "width": 67,
+          "x": 272,
+          "y": 559
+        },
+        "type": "ia.input.numeric-entry-field"
+      },
+      {
+        "meta": {
+          "name": "NumericEntryField_14"
+        },
+        "position": {
+          "height": 32,
+          "width": 67,
+          "x": 356,
+          "y": 227
+        },
+        "type": "ia.input.numeric-entry-field"
+      },
+      {
+        "meta": {
+          "name": "NumericEntryField_15"
+        },
+        "position": {
+          "height": 32,
+          "width": 67,
+          "x": 356,
+          "y": 283
+        },
+        "type": "ia.input.numeric-entry-field"
+      },
+      {
+        "meta": {
+          "name": "NumericEntryField_16"
+        },
+        "position": {
+          "height": 32,
+          "width": 67,
+          "x": 359,
+          "y": 335
+        },
+        "type": "ia.input.numeric-entry-field"
+      },
+      {
+        "meta": {
+          "name": "NumericEntryField_17"
+        },
+        "position": {
+          "height": 32,
+          "rotate": {
+            "anchor": "50% 38%"
+          },
+          "width": 67,
+          "x": 359.5,
+          "y": 391
+        },
+        "type": "ia.input.numeric-entry-field"
+      },
+      {
+        "meta": {
+          "name": "NumericEntryField_18"
+        },
+        "position": {
+          "height": 32,
+          "width": 67,
+          "x": 361.5,
+          "y": 450
+        },
+        "type": "ia.input.numeric-entry-field"
+      },
+      {
+        "meta": {
+          "name": "NumericEntryField_19"
+        },
+        "position": {
+          "height": 32,
+          "width": 67,
+          "x": 361,
+          "y": 505
+        },
+        "type": "ia.input.numeric-entry-field"
+      },
+      {
+        "meta": {
+          "name": "NumericEntryField_20"
+        },
+        "position": {
+          "height": 32,
+          "rotate": {
+            "anchor": "50% 25%"
+          },
+          "width": 67,
+          "x": 363.5,
+          "y": 559
+        },
+        "type": "ia.input.numeric-entry-field"
+      },
+      {
+        "meta": {
+          "name": "NumericEntryField_21"
+        },
+        "position": {
+          "height": 32,
+          "rotate": {
+            "anchor": "50% 38%"
+          },
+          "width": 67,
+          "x": 440,
+          "y": 228
+        },
+        "type": "ia.input.numeric-entry-field"
+      },
+      {
+        "meta": {
+          "name": "NumericEntryField_22"
+        },
+        "position": {
+          "height": 32,
+          "width": 67,
+          "x": 440,
+          "y": 283
+        },
+        "type": "ia.input.numeric-entry-field"
+      },
+      {
+        "meta": {
+          "name": "NumericEntryField_23"
+        },
+        "position": {
+          "height": 32,
+          "width": 67,
+          "x": 443.5,
+          "y": 335
+        },
+        "type": "ia.input.numeric-entry-field"
+      },
+      {
+        "meta": {
+          "name": "NumericEntryField_24"
+        },
+        "position": {
+          "height": 32,
+          "width": 67,
+          "x": 443.5,
+          "y": 391
+        },
+        "type": "ia.input.numeric-entry-field"
+      },
+      {
+        "meta": {
+          "name": "NumericEntryField_25"
+        },
+        "position": {
+          "height": 32,
+          "rotate": {
+            "anchor": "50% 38%"
+          },
+          "width": 67,
+          "x": 445,
+          "y": 451
+        },
+        "type": "ia.input.numeric-entry-field"
+      },
+      {
+        "meta": {
+          "name": "NumericEntryField_26"
+        },
+        "position": {
+          "height": 32,
+          "width": 67,
+          "x": 446,
+          "y": 504
+        },
+        "type": "ia.input.numeric-entry-field"
+      },
+      {
+        "meta": {
+          "name": "NumericEntryField_27"
+        },
+        "position": {
+          "height": 32,
+          "width": 67,
+          "x": 447,
+          "y": 559
+        },
+        "type": "ia.input.numeric-entry-field"
+      },
+      {
+        "meta": {
+          "name": "NumericEntryField_28"
+        },
+        "position": {
+          "height": 32,
+          "width": 67,
+          "x": 527,
+          "y": 226
+        },
+        "type": "ia.input.numeric-entry-field"
+      },
+      {
+        "meta": {
+          "name": "NumericEntryField_29"
+        },
+        "position": {
+          "height": 32,
+          "rotate": {
+            "anchor": "-81% 50%"
+          },
+          "width": 67,
+          "x": 527,
+          "y": 282
+        },
+        "type": "ia.input.numeric-entry-field"
+      },
+      {
+        "meta": {
+          "name": "NumericEntryField_30"
+        },
+        "position": {
+          "height": 32,
+          "rotate": {
+            "anchor": "-81% 50%"
+          },
+          "width": 67,
+          "x": 530,
+          "y": 336
+        },
+        "type": "ia.input.numeric-entry-field"
+      },
+      {
+        "meta": {
+          "name": "NumericEntryField_31"
+        },
+        "position": {
+          "height": 32,
+          "rotate": {
+            "anchor": "-81% 50%"
+          },
+          "width": 67,
+          "x": 529,
+          "y": 392
+        },
+        "type": "ia.input.numeric-entry-field"
+      },
+      {
+        "meta": {
+          "name": "NumericEntryField_32"
+        },
+        "position": {
+          "height": 32,
+          "rotate": {
+            "anchor": "-81% 50%"
+          },
+          "width": 67,
+          "x": 530,
+          "y": 450
+        },
+        "type": "ia.input.numeric-entry-field"
+      },
+      {
+        "meta": {
+          "name": "NumericEntryField_33"
+        },
+        "position": {
+          "height": 32,
+          "rotate": {
+            "anchor": "-81% 50%"
+          },
+          "width": 67,
+          "x": 529,
+          "y": 503
+        },
+        "type": "ia.input.numeric-entry-field"
+      },
+      {
+        "meta": {
+          "name": "NumericEntryField_34"
+        },
+        "position": {
+          "height": 32,
+          "rotate": {
+            "anchor": "-81% 50%"
+          },
+          "width": 67,
+          "x": 531.5,
+          "y": 558
+        },
+        "type": "ia.input.numeric-entry-field"
+      },
+      {
+        "meta": {
+          "name": "NumericEntryField_35"
+        },
+        "position": {
+          "height": 32,
+          "width": 67,
+          "x": 617,
+          "y": 228
+        },
+        "type": "ia.input.numeric-entry-field"
+      },
+      {
+        "meta": {
+          "name": "NumericEntryField_36"
+        },
+        "position": {
+          "height": 32,
+          "width": 67,
+          "x": 617,
+          "y": 278
+        },
+        "type": "ia.input.numeric-entry-field"
+      },
+      {
+        "meta": {
+          "name": "NumericEntryField_37"
+        },
+        "position": {
+          "height": 32,
+          "width": 67,
+          "x": 618,
+          "y": 336
+        },
+        "type": "ia.input.numeric-entry-field"
+      },
+      {
+        "meta": {
+          "name": "NumericEntryField_38"
+        },
+        "position": {
+          "height": 32,
+          "rotate": {
+            "anchor": "50% 38%"
+          },
+          "width": 67,
+          "x": 616,
+          "y": 392
+        },
+        "type": "ia.input.numeric-entry-field"
+      },
+      {
+        "meta": {
+          "name": "NumericEntryField_39"
+        },
+        "position": {
+          "height": 32,
+          "width": 67,
+          "x": 617,
+          "y": 450
+        },
+        "type": "ia.input.numeric-entry-field"
+      },
+      {
+        "meta": {
+          "name": "NumericEntryField_40"
+        },
+        "position": {
+          "height": 32,
+          "width": 67,
+          "x": 617,
+          "y": 505
+        },
+        "type": "ia.input.numeric-entry-field"
+      },
+      {
+        "meta": {
+          "name": "NumericEntryField_41"
+        },
+        "position": {
+          "height": 32,
+          "rotate": {
+            "anchor": "50% 25%"
+          },
+          "width": 67,
+          "x": 616,
+          "y": 558
+        },
+        "type": "ia.input.numeric-entry-field"
+      },
+      {
+        "meta": {
+          "name": "NumericEntryField_42"
+        },
+        "position": {
+          "height": 32,
+          "width": 67,
+          "x": 93,
+          "y": 154
+        },
+        "type": "ia.input.numeric-entry-field"
+      },
+      {
+        "meta": {
+          "name": "NumericEntryField_43"
+        },
+        "position": {
+          "height": 32,
+          "rotate": {
+            "anchor": "50% 38%"
+          },
+          "width": 67,
+          "x": 94,
+          "y": 104
+        },
+        "type": "ia.input.numeric-entry-field"
+      }
+    ],
+    "meta": {
+      "name": "root"
+    },
+    "type": "ia.container.coord"
+  }
+}

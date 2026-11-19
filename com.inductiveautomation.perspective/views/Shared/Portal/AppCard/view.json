@@ -1,0 +1,300 @@
+{
+  "custom": {},
+  "params": {
+    "accent": "",
+    "appCode": "AM",
+    "appName": "Admin Center",
+    "badgeText": "",
+    "badgeType": "",
+    "category": "",
+    "description": "Manage Master Data",
+    "iconText": "",
+    "isEnable": true,
+    "isFavorite": false,
+    "openNewTab": false,
+    "pagePath": "/",
+    "projectName": "manufactoring_admin",
+    "webDevResource": ""
+  },
+  "propConfig": {
+    "params.accent": {
+      "paramDirection": "input",
+      "persistent": true
+    },
+    "params.appCode": {
+      "paramDirection": "input",
+      "persistent": true
+    },
+    "params.appName": {
+      "paramDirection": "input",
+      "persistent": true
+    },
+    "params.badgeText": {
+      "paramDirection": "input",
+      "persistent": true
+    },
+    "params.badgeType": {
+      "paramDirection": "input",
+      "persistent": true
+    },
+    "params.category": {
+      "paramDirection": "input",
+      "persistent": true
+    },
+    "params.description": {
+      "paramDirection": "input",
+      "persistent": true
+    },
+    "params.iconText": {
+      "paramDirection": "input",
+      "persistent": true
+    },
+    "params.isEnable": {
+      "paramDirection": "input",
+      "persistent": true
+    },
+    "params.isFavorite": {
+      "paramDirection": "input",
+      "persistent": true
+    },
+    "params.openNewTab": {
+      "paramDirection": "input",
+      "persistent": true
+    },
+    "params.pagePath": {
+      "paramDirection": "input",
+      "persistent": true
+    },
+    "params.projectName": {
+      "paramDirection": "input",
+      "persistent": true
+    },
+    "params.webDevResource": {
+      "paramDirection": "input",
+      "persistent": true
+    }
+  },
+  "props": {
+    "defaultSize": {
+      "height": 210,
+      "width": 350
+    }
+  },
+  "root": {
+    "children": [
+      {
+        "children": [
+          {
+            "meta": {
+              "name": "lbAppCode"
+            },
+            "position": {
+              "basis": "62px"
+            },
+            "propConfig": {
+              "props.style.backgroundColor": {
+                "binding": {
+                  "config": {
+                    "path": "view.params.accent"
+                  },
+                  "type": "property"
+                }
+              },
+              "props.text": {
+                "binding": {
+                  "config": {
+                    "path": "view.params.appCode"
+                  },
+                  "type": "property"
+                }
+              }
+            },
+            "props": {
+              "style": {
+                "alignItems": "center",
+                "borderRadius": "9px",
+                "display": "flex",
+                "justifyContent": "center"
+              },
+              "textStyle": {
+                "color": "#193D50",
+                "fontSize": "12px",
+                "fontWeight": "800",
+                "letterSpacing": "0.7px"
+              }
+            },
+            "type": "ia.display.label"
+          },
+          {
+            "meta": {
+              "name": "Icon"
+            },
+            "position": {
+              "basis": "30px"
+            },
+            "propConfig": {
+              "props.color": {
+                "binding": {
+                  "config": {
+                    "path": "view.params.isFavorite"
+                  },
+                  "transforms": [
+                    {
+                      "fallback": "#FFFFFF",
+                      "inputType": "scalar",
+                      "mappings": [
+                        {
+                          "input": false,
+                          "output": "#FAFAFB"
+                        },
+                        {
+                          "input": true,
+                          "output": "#555555"
+                        }
+                      ],
+                      "outputType": "color",
+                      "type": "map"
+                    }
+                  ],
+                  "type": "property"
+                }
+              }
+            },
+            "props": {
+              "path": "material/star",
+              "style": {
+                "opacity": "0.68",
+                "padding": "3px"
+              }
+            },
+            "type": "ia.display.icon"
+          }
+        ],
+        "meta": {
+          "name": "headerRow"
+        },
+        "position": {
+          "basis": "42px"
+        },
+        "props": {
+          "justify": "space-between"
+        },
+        "type": "ia.container.flex"
+      },
+      {
+        "meta": {
+          "name": "lbAppName"
+        },
+        "position": {
+          "basis": "35px"
+        },
+        "propConfig": {
+          "props.text": {
+            "binding": {
+              "config": {
+                "path": "view.params.appName"
+              },
+              "type": "property"
+            }
+          }
+        },
+        "props": {
+          "textStyle": {
+            "classes": "Portal/AppTitle"
+          }
+        },
+        "type": "ia.display.label"
+      },
+      {
+        "meta": {
+          "name": "lbDescription"
+        },
+        "position": {
+          "basis": "48px"
+        },
+        "propConfig": {
+          "props.text": {
+            "binding": {
+              "config": {
+                "path": "view.params.description"
+              },
+              "type": "property"
+            }
+          }
+        },
+        "props": {
+          "textStyle": {
+            "classes": "Portal/AppDescription"
+          }
+        },
+        "type": "ia.display.label"
+      },
+      {
+        "meta": {
+          "name": "lbSpacer"
+        },
+        "position": {
+          "basis": "8px"
+        },
+        "type": "ia.display.label"
+      },
+      {
+        "children": [
+          {
+            "meta": {
+              "name": "openWorkspace"
+            },
+            "position": {
+              "basis": "290px"
+            },
+            "props": {
+              "style": {
+                "alignItems": "center",
+                "display": "flex",
+                "letterSpacing": "0.8px",
+                "whiteSpace": "normal"
+              },
+              "text": "OPEN WORKSPACE →",
+              "textStyle": {
+                "color": "#15848B",
+                "fontSize": "11px",
+                "fontWeight": "800"
+              }
+            },
+            "type": "ia.display.label"
+          }
+        ],
+        "meta": {
+          "name": "footerRow"
+        },
+        "position": {
+          "basis": "35px"
+        },
+        "type": "ia.container.flex"
+      }
+    ],
+    "events": {
+      "dom": {
+        "onClick": {
+          "config": {
+            "script": "\twebDevResource \u003d self.view.params.webDevResource\n\tif webDevResource:\n\t    projectName \u003d self.session.getProjectInfo()[\"name\"]\n\t    url \u003d (\n\t        self.session.props.gateway.address.rstrip(\"/\")\n\t        + \"/system/webdev/\"\n\t        + projectName\n\t        + \"/\"\n\t        + webDevResource.lstrip(\"/\")\n\t    )\n\telse:\n\t    url \u003d (\n\t        \"/data/perspective/client/\"\n\t        + self.view.params.projectName\n\t        + self.view.params.pagePath\n\t    )\n\t\n\tsystem.perspective.navigate(\n\t    url\u003durl,\n\t    newTab\u003dself.view.params.openNewTab\n\t)"
+          },
+          "scope": "G",
+          "type": "script"
+        }
+      }
+    },
+    "meta": {
+      "name": "root"
+    },
+    "props": {
+      "direction": "column",
+      "justify": "space-between",
+      "style": {
+        "classes": "Portal/AppCard",
+        "padding": "20px 22px"
+      }
+    },
+    "type": "ia.container.flex"
+  }
+}

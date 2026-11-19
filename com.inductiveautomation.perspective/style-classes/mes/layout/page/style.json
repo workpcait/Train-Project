@@ -1,0 +1,9 @@
+{
+  "base": {
+    "style": {
+      "backgroundColor": "#f5f7fa",
+      "padding": "16px",
+      "fontFamily": "Arial, sans-serif"
+    }
+  }
+}

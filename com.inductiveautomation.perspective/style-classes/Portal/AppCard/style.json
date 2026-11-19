@@ -1,0 +1,23 @@
+{
+  "base": {
+    "style": {
+      "backgroundColor": "#FFFFFF",
+      "border": "1px solid #E1E9EE",
+      "borderRadius": "16px",
+      "boxShadow": "0 8px 24px rgba(16, 43, 58, 0.06)",
+      "cursor": "pointer",
+      "margin": "8px",
+      "transition": "transform 180ms ease, box-shadow 180ms ease, border-color 180ms ease"
+    }
+  },
+  "variants": [
+    {
+      "pseudo": "hover",
+      "style": {
+        "borderColor": "#86D2D0",
+        "boxShadow": "0 18px 36px rgba(16, 66, 75, 0.14)",
+        "transform": "translateY(-4px)"
+      }
+    }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "base": {
+    "style": {
+      "backgroundColor": "#dc2626",
+      "color": "#ffffff",
+      "borderRadius": "6px",
+      "border": "none",
+      "fontWeight": "600"
+    }
+  }
+}

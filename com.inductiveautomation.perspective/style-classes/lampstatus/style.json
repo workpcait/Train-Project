@@ -1,0 +1,11 @@
+{
+  "base": {
+    "style": {
+      "backgroundColor": "#52D520",
+      "borderTopLeftRadius": "70px",
+      "borderTopRightRadius": "70px",
+      "borderBottomLeftRadius": "70px",
+      "borderBottomRightRadius": "70px"
+    }
+  }
+}

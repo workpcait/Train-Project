@@ -1,0 +1,8 @@
+{
+  "base": {
+    "style": {
+      "padding": "16px",
+      "gap": "12px"
+    }
+  }
+}
